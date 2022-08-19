@@ -1,0 +1,64 @@
+@media screen and (min-width: 1024px) {
+  body {
+    padding: 1.8rem 10rem;
+  }
+
+  .into__title {
+    font-size: 3.8rem;
+  }
+
+  .intro__text {
+    font-size: 1.6rem;
+    width: 600px;
+  }
+
+  .ingredients__title,
+  .instructions__title {
+    font-size: 2.4rem;
+  }
+
+  .ingredients__list-title {
+    font-size: 1.8rem;
+  }
+
+  .ingredients__list label {
+    font-size: 1.6rem;
+  }
+
+  .amount__text p:first-child {
+    font-size: 1rem;
+  }
+
+  .amount__text p:last-child,
+  .amount__text span {
+    font-size: 1.4rem;
+  }
+
+  .amount__icon {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 1349px) {
+  body {
+    padding: 1.8rem 15rem;
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .amount {
+    grid-template-columns: 1fr;
+    height: 300px;
+    width: 680px;
+    padding: 2.8rem;
+    border-radius: 12px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  }
+
+  .amount .amount__info:first-child {
+    grid-column: auto;
+  }
+}

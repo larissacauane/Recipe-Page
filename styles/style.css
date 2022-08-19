@@ -127,7 +127,6 @@ body {
   font-weight: 400;
 }
 
-
 .ingredients__list label span {
   font-style: italic;
   font-weight: 500;
@@ -145,13 +144,13 @@ body {
 .instructions__text {
   display: flex;
   gap: 2rem;
-  
+
   margin: 1.8rem 0;
 }
 
-.instructions__text p{
-    font-size: 1.6rem;
-    line-height: 1.5;
+.instructions__text p {
+  font-size: 1.6rem;
+  line-height: 1.5;
 }
 
 .instructions__text span:first-child {
@@ -164,5 +163,4 @@ body {
   text-align: center;
   font-size: 2.4rem;
   border-radius: 6px;
-  
 }
